@@ -10,6 +10,5 @@ This game requires Mac OSX (https://www.apple.com/mac/), Python2.7 (https://www.
 3. Type in "git clone https://github.com/Mrpyfisher199/Call-Of-Cheese-Puffs----Operation-TrashBags"
 4. Type in "cd Call-Of-Cheese-Puffs----Operation-TrashBags" and then type in "cp COCP-OTB.zip ~/".
 5. Execute the "GAME" exec by double clicking the exec or type in "./GAME"
-6. IF you want to execute this by double-clicking the exec move the "GAME" exec to your home directory.
 
 # HAVE FUN!!!
