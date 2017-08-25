@@ -1,0 +1,22 @@
+red=$( tput setaf 1 )
+green=$( tput setaf 2 )
+NC=$( tput setaf 0 )     
+function directoryExists {
+    if [ -d "$1" ] ; then
+        printf "%s\n" "${green}$1${NC}"
+    else
+        mkdir .COCP-OTB
+        mv COCP-OTB.zip .COCP-OTB
+    fi
+}
+directoryExists .COCP-OTB
+cd .COCP-OTB
+unzip COCP-OTB.zip
+./Call-Of-CheesePuffs__Operation-TrashBags.py
+rm Call-Of-CheesePuffs__Operation-TrashBags.py
+rm music.txt
+rm -rf FontsPy
+rm -rf img
+rm -rf sound
+rm -rf __MACOSX
+osascript -e 'tell application "Terminal" to quit' &
